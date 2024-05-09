@@ -1,0 +1,50 @@
+.navbar-section {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  min-width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: lightblue;
+  height: 80px;
+  align-items: center;
+  padding: 0px 50px;
+  border: 1px solid white;
+  font-size: 20px;
+}
+.search {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+}
+.user {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  align-items: center;
+  font-weight: 600;
+}
+.user cart {
+  margin-left: 40px;
+}
+.menu-link {
+  text-decoration: none;
+  color: inherit;
+}
+.menu-link:hover {
+  cursor: default; /* Set cursor to default to indicate non-clickable on hover */
+  color: #333; /* Change text color on hover */
+  background-color: #f0f0f0; /* Add background color on hover */
+  border-radius: 2px; /* Add rounded corners on hover */
+  transition: all 0.3s ease; /* Add smooth transition effect */
+}
+.search input {
+  width: 80%;
+  height: 2rem;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-weight: 400;
+  font-size: medium;
+}

@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background: #f8f9fa;
+    }
+    .navbar {
+      background-color: #FFDAB9;
+    }
+    .navbar-nav .nav-link {
+      color: black !important;
+    }
+    .dropdown-menu {
+      border-top: 3px solid #f8a536;
+    }
+    .dropdown-item {
+      border-bottom: 1px solid #ccc;
+    }
+    .dropdown-item:last-child {
+      border-bottom: none;
+    }
+    .phone-btn {
+      background-color: #f8a536;
+      color: black !important;
+    }
+    .phone-btn:hover {
+      background-color: #ffa500;
+    }
+    .nav-link:hover {
+      background-color: #ffa500 !important;
+    }
+    .nav-item:hover .dropdown-menu {
+      display: block; /* Display the dropdown menu when hovering over the parent nav-item */
+    }
+
+    .icici-logo {
+      color: #007bff; /* Blue color for ICICI Bank */
+      font-weight: bold;
+      font-style: italic;
+      font-size: xx-large;
+      margin-left: 210px;
+      display: inline-block; /* Adjust margin for proper alignment */
+    }
+    .scrolling-placeholder {
+  position: relative;
+  overflow: hidden;
+}
+.container-fluid {
+      padding: 10px;
+    }
+   
+
+.scrolling-placeholder input {
+  width: 300px; /* Adjust the width to your desired size */
+  height: 40px; /* Adjust the height to your desired size */
+  /* Add any other styling properties as needed */
+}
+.dropdown-menu a:hover {
+      background-color: #f1f1f1;
+    }
+
+.placeholder-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 5px;
+  white-space: nowrap;
+  animation: scrollText 5s linear infinite;
+}
+.img-fluid{
+  margin-left: 30%;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+    .search-input {
+      width: 30%;
+    }
+.bg-light-orange {
+      background-color: #FFDAB9; 
+      /* Light orange color using hexadecimal */
+}
+
+
+.btn.btn-secondary.dropdown-toggle {
+    background-color: transparent;
+   border: none;
+   color: black;
+  /* You can set the border color to match the original style */
+  }
+
+  .custom-dropdown .dropdown-menu {
+  display: none;
+}
+
+.custom-dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.main-section {
+    
+    position: relative;
+}
+
+.image-slider {
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    position: relative;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-box {
+  display:flex;
+    position: absolute;
+    top: 250px; /* Adjust as needed */
+    left: 50px;
+    height: 170px;
+    width: 350px; /* Adjust as needed */
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    
+    
+}
+.text-box1 {
+  display:flex;
+    position: absolute;
+    /* Adjust as needed */
+    top:250px;
+    left:565px;
+    height:170px;
+    width:350px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+   
+    border-radius: 5px;
+}
+.text-box2 {
+  display:flex;
+    position: absolute;
+    /* Adjust as needed */
+    top:250px;
+    left:970px;
+    height:170px;
+    width:350px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+.btn-orange{
+  background-color: orange;
+}
+
+/* Custom CSS for the buttons */
+.button-list {
+    padding: 0;
+    list-style: none;
+    margin-top: 60px;
+    border-radius: 5px; /* Adjust margin-top as needed */
+}
+
+.button-list li {
+    margin-bottom: 10px;
+}
+
+.btn-outline-orange {
+    color: orange;
+    border-color: orange;
+}
+
+.btn-outline-orange:hover {
+    background-color: orange;
+    color: white;
+}
+.heading-buttons{
+  margin-top: 30px;
+}
+
+.bank {
+    background-color: rgb(247, 233, 217) ;/* Adjust color as needed */
+    padding: 20px;
+    width: 100%;
+    
+  }
+  .bank h3{
+    margin-left: 70px;
+  }
+  .bank h4{
+    margin-left: 70px;
+  }
+  .ser p{
+    display: inline;
+    margin: 70px;
+    padding-right: 20px; /* Adjust spacing between lines as needed */
+    border-right: 1px solid #333; /* Adjust border style and color as needed */
+  }
+  .container2{
+    width: 100%;
+  }
+  
+  .notes {
+    background-color: rgb(43, 43, 104); /* Background color as blue */
+    color: white; /* Text color as white */
+    /* Adjust padding as needed */
+    display: flex; /* Display as flexbox */
+ /* Align items with space between */
+    align-items: center; /* Align items to center vertically */
+  }
+  .notes ol{
+    display: inline-flex;
+    margin-left: 10px;
+   
+  }
+  .notes li{
+    margin-left: 30px;
+    padding: 5px;
+  }
+  .notes h5{
+    margin-left: 90px;
+  }
+
+  .trend {
+    text-align: center; /* Center align content */
+  }
+  .trend p {
+    color: orange; /* Text color as orange */
+  }
+  .great {
+    margin-top: 10px; /* Adjust margin as needed */
+    text-align: center; /* Center align content */
+  }
+  .hand {
+    margin-top: 20px; /* Adjust margin as needed */
+    display: flex; /* Display as flexbox */
+    justify-content: center; /* Align items horizontally to center */
+    align-items: center; /* Align items vertically to center */
+    flex-direction: column;
+    background-color: rgb(247, 233, 217) ; /* Align items vertically */
+  }
+  .hand h6 {
+    margin: 0; /* Remove default margin */
+  }
+  .ic {
+    margin-top: 10px; /* Adjust margin as needed */
+    text-align: center;
+    background-color: white; /* Center align content */
+  }
+  .ic img {
+    display: block; /* Make image a block element */
+    margin: 0 auto; /* Center image horizontally */
+    max-width: 100%; /* Ensure image does not exceed container width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .ic h3 {
+    margin-top: 10px; 
+    color: orange;/* Adjust margin as needed */
+  }
+  .ic button {
+    margin-top: 60px; 
+    background-color: orange; /* Adjust margin as needed */
+  }
+  .ici{
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .ici button{
+    background-color: #f8a536;
+    color: #f8f9fa;
+   
+  }
+
+
+  .footer {
+    background-color: rgb(241, 227, 211) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    
+  }
+  
+  .section:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .item {
+    margin-right: 20px;
+   }
+   .item li{
+    list-style: none;
+     /* Adjust as needed */
+    margin: 10px;
+    white-space: nowrap;
+    margin-left: 0;
+    display: flex;
+    color:black;
+   }
+   .section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 1 1 25%; /* 25% width for each item to fit four items in a row */
+  margin: 0 10px; /* Adjust margin between items */
+}
+
+.item h3 {
+  margin-bottom: 10px;
+}
+
+.item ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item ul li {
+  margin-bottom: 5px;
+}
+
+   .item a{
+    color:rgb(80, 66, 66);
+    display: inline-flex;
+   }
+
+  .vertical-line {
+    margin: 0 10px;
+    border-left: 1px solid #ccc;
+    height: 20px;
+  }
+
+  .section {
+  display: flex;
+}
+
+.content {
+  display: flex;
+  
+}
+
+.content p {
+  flex: 1;
+  margin-right: 10px;
+  margin-left: 10px;
+  white-space: nowrap; /* Adjust spacing between paragraphs */
+}
+
+.section {
+  display: flex;
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.text-container p {
+  margin: 0 10px; /* Adjust spacing between paragraphs */
+}
+
+.vertical-line {
+  height: 20px; /* Adjust height of the line */
+  width: 1px;
+  background-color: black;
+  margin: 0 10px; /* Adjust spacing between lines */
+}
+
+
+    
+  </style>
+</head>
+<body>
+  <header class="header-section">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Personal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">NRI</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Business</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Corporate</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Investor Relations
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+              <a class="dropdown-item" href="#">Annal Reports</a>
+              <a class="dropdown-item" href="#">Investor Presenation</a>
+              <a class="dropdown-item" href="#">Quaterly Results</a>
+              <a class="dropdown-item" href="#">Notice</a>
+              <a class="dropdown-item" href="#">Investor Contact</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              About Us
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+              <a class="dropdown-item" href="#">ICICI Group Companies</a>
+                  <a class="dropdown-item" href="#">Board of Directors</a>
+                  <a class="dropdown-item" href="#">Media Center</a>
+                  <a class="dropdown-item" href="#">Awards and Recognition</a>
+                  <a class="dropdown-item" href="#">Environment, Social and Governance</a>
+                  <a class="dropdown-item" href="#">Career opportunities</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Ways to Bank
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+              <a class="dropdown-item" href="#">Digital Banking</a>
+                  <a class="dropdown-item" href="#">Mobile Banking</a>
+                  <a class="dropdown-item" href="#">Internet Banking</a>
+                  <a class="dropdown-item" href="#">IMobile Pay</a>
+                  <a class="dropdown-item" href="#">Whatsapp banking</a>
+                  <a class="dropdown-item" href="#">Pockets</a>
+                  <a class="dropdown-item" href="#">Ask Ipal</a>
+                  <a class="dropdown-item" href="#">ATM's and Branches</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Countries
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+              <a class="dropdown-item" href="#">India</a>
+              <a class="dropdown-item" href="#">Uk</a>
+              <a class="dropdown-item" href="#">USA</a>
+              <a class="dropdown-item" href="#">Singapore</a>
+              <a class="dropdown-item" href="#">China</a>
+              <a class="dropdown-item" href="#">Japan</a>
+              <a class="dropdown-item" href="#">France</a>
+              <a class="dropdown-item" href="#">Spain</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Customer Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown5">
+              <a class="dropdown-item" href="#">Contact US</a>
+                  <a class="dropdown-item" href="#">Customer Care</a>
+                  <a class="dropdown-item" href="#">Service Requests</a>
+                  <a class="dropdown-item" href="#">Forms center</a>
+                  <a class="dropdown-item" href="#">Online Assist</a>
+                  <a class="dropdown-item" href="#">FeedBack</a>
+                  <a class="dropdown-item" href="#">Queries& Complaints</a>
+                  <a class="dropdown-item" href="#">FAQ's</a>
+                  <a class="dropdown-item" href="#">Report Suspicious Behavior</a>
+                  <a class="dropdown-item" href="#">Report Unauthorized Transaction</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-primary phone-btn">1880180</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4">
+        <!-- ICICI Bank Logo -->
+        <span class="icici-logo">ICICI Bank</span>
+      </div>     
+        <!-- Search Bar -->
+        <div class="scrolling-placeholder">
+          <input type="text" class="form-control" id="inputField">
+          <div class="placeholder-text">Search for products and services</div>
+        </div>
+        <!-- Login Dropdown -->
+        <div class="dropdown custom-dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="loginDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Login
+          </button>
+          <div class="dropdown-menu" aria-labelledby="loginDropdown">
+            <a class="dropdown-item" href="#">Personal</a>
+            <a class="dropdown-item" href="#">NRI Banking</a>
+            <a class="dropdown-item" href="#">Corporate</a>
+          </div>
+        </div>         
+    </div>
+  </div>
+
+  <div class="container-fluid bg-light-orange">
+    <div class="row">
+      <div class="col">
+        <div class="dropdown custom-dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Accounts
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <a class="dropdown-item" href="#">Saving Account</a>
+            <a class="dropdown-item" href="#">Salary Account</a>
+            <a class="dropdown-item" href="#">All Accounts</a>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat the above structure for the other dropdowns -->
+      <!-- Example for the next dropdown -->
+      <div class="col">
+        <div class="dropdown custom-dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Deposits
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+            <a class="dropdown-item" href="#">Fixed Deposit</a>
+            <a class="dropdown-item" href="#">Recurring Deposit</a>
+            <a class="dropdown-item" href="#">iWish-Goal based savings</a>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat the above structure for the remaining dropdowns -->
+      <div class="col">
+        <div class="dropdown custom-dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Cards
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+            <a class="dropdown-item" href="#">Credit-Card</a>
+            <a class="dropdown-item" href="#">Debit-Card</a>
+            <a class="dropdown-item" href="#">Forex card</a>
+            <a class="dropdown-item" href="#">Prepaid Cards</a>
+            <a class="dropdown-item" href="#">Transit cards</a>
+            <a class="dropdown-item" href="#">Commercial Cards</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="dropdown custom-dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Payments
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+            <a class="dropdown-item" href="#">Money Transfer</a>
+            <a class="dropdown-item" href="#">Overdue Loan Payment</a>
+            <a class="dropdown-item" href="#">Credit card bill payment</a>
+            <a class="dropdown-item" href="#">Tax payment</a>
+            <a class="dropdown-item" href="#">Bill Payments&Recharges</a>
+            <a class="dropdown-item" href="#">Contactless Payments</a>
+            <a class="dropdown-item" href="#">E-Wallet</a>
+            <a class="dropdown-item" href="#">FastTag</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="dropdown custom-dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Loans
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+            <a class="dropdown-item" href="#">Personal Loan</a>
+            <a class="dropdown-item" href="#">HomeLoan</a>
+            <a class="dropdown-item" href="#">Car Loan</a>
+            <a class="dropdown-item" href="#">Education Loan</a>
+            <a class="dropdown-item" href="#">Gold Loan</a>
+            <a class="dropdown-item" href="#">Loans against Securities</a>
+            <a class="dropdown-item" href="#">Loans against properties</a>
+            <a class="dropdown-item" href="#">Loans Against Mutual Funds</a>
+            <a class="dropdown-item" href="#">Agri and Rural Loans</a>
+            <a class="dropdown-item" href="#">Smart Loans</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="dropdown custom-dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Investments
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+            <a class="dropdown-item" href="#">Mutual Funds</a>
+            <a class="dropdown-item" href="#">Invest in Stocks</a>
+            <a class="dropdown-item" href="#">Apply for ipos</a>
+            <a class="dropdown-item" href="#">Bonds</a>
+            <a class="dropdown-item" href="#">National Pension System</a>
+            <a class="dropdown-item" href="#">Gold Monetisation scheme</a>
+            <a class="dropdown-item" href="#">Government Scheme</a>
+            <a class="dropdown-item" href="#">Manage personal finance</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="dropdown custom-dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Insurance
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+            <a class="dropdown-item" href="#">Life Insurance</a>
+            <a class="dropdown-item" href="#">Helath Insurance</a>
+            <a class="dropdown-item" href="#">Vechicle Insurance</a>
+            <a class="dropdown-item" href="#">Travel Insurance</a>
+            <a class="dropdown-item" href="#">Government Schemes</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="dropdown custom-dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Shop
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+            <a class="dropdown-item" href="#">OfferZone</a>
+            <a class="dropdown-item" href="#">Personalized Product Offers</a>
+            <a class="dropdown-item" href="#">Offers Near You</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="dropdown custom-dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Special Services
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+            <a class="dropdown-item" href="#">Private Banking</a>
+            <a class="dropdown-item" href="#">Wealth Management</a>
+            <a class="dropdown-item" href="#">Privilage Banking programme</a>
+            <a class="dropdown-item" href="#">Campus power</a>
+            <a class="dropdown-item" href="#">Retirement Planning</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="dropdown custom-dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Knowledge Hub
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+            <a class="dropdown-item" href="#">Videos</a>
+            <a class="dropdown-item" href="#">Blogs</a>
+            <a class="dropdown-item" href="#">Caluculators</a>
+          </div>
+        </div>
+      </div>      
+    </div>
+  </div>
+</header>
+
+
+<main class="main-section">
+  <div class="content">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="2000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="C:\Users\shivani\Desktop\ICICIBank\frontend\public\images\image1.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src=C:\Users\shivani\Desktop\ICICIBank\frontend\public\images\image2.webp class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="C:\Users\shivani\Desktop\ICICIBank\frontend\public\images\Image3.webp"class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="C:\Users\shivani\Desktop\ICICIBank\frontend\public\images\image4.webp"class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="C:\Users\shivani\Desktop\ICICIBank\frontend\public\images\img1.jpg"class="d-block w-100" alt="...">
+        </div>
+        <!-- Add more carousel items as needed -->
+      </div>
+    </div>
+    <div class="text-box">
+      <h4>offers for you:</h4>
+        <div>
+          <ol style="font-size: large;">
+            <li>Savings Account</li>
+            <li>Credit card</li>
+            <li>Home Loan</li>
+            <li>Personal Loan</li>
+          </ol>
+        </div>
+        
+      <!-- Add your data here -->
+    </div>
+  
+    <div class="text-box1">
+      <h4>Grow Your Investment</h4>
+        <div>
+          <ol style="font-size: large;">
+            <li>Fixed Deposit</li>
+            <li>Mutual Fund</li>
+            <li>Invest in Stocks</li>
+            <li>Retirement planning</li>
+          </ol>
+        </div>
+    </div>
+  
+    <div class="text-box2">
+      <h4>For any Banking Assistance call our customer care number: </h4>
+      <h3>18801080</h3>
+    </div>
+  </div>
+  
+  <button class="prev-btn">&lt;</button>
+  <button class="next-btn">&gt;</button>
+</main>
+
+  
+<div class="col-md-8">
+  <nav class="navbar navbar-expand-lg">
+      <ul class="navbar-nav mx-auto">
+            I am intrested in:
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="interestedDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Cards
+              </a>
+              <div class="dropdown-menu" aria-labelledby="interestedDropdown" style="max-height: 150px; overflow-y: auto;">
+                  <a class="dropdown-item" href="#">Item 1</a>
+                  <a class="dropdown-item" href="#">Item 2</a>
+              </div>
+          </li>
+          For
+          <li class="nav-item dropdown">          
+              <a class="nav-link dropdown-toggle" href="#" id="benefitsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Benefits and Rewards
+              </a>
+              <div class="dropdown-menu" aria-labelledby="benefitsDropdown" style="max-height: 150px; overflow-y: auto;">
+                  <a class="dropdown-item" href="#">Item 1</a>
+                  <a class="dropdown-item" href="#">Item 2</a>
+              </div>
+          </li>
+      </ul>
+  </nav>
+</div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-6">
+          <img src="C:\Users\shivani\Desktop\ICICIBank\frontend\public\images\card1.jpg" alt="Image" class="img-fluid" style="width: 70%;">
+      </div>
+      <div class="col-md-6">
+          <div class="text-container5">
+              <h2>Coral credit card</h2>
+              <ul>
+                  <li>Joining fee 500 + GST</li>
+                  <li>Earn up to 10,000 additional reward points</li>
+                  <li>Buy 1, get 1 movie ticket free at BookMyShow</li>
+                  <li>One complimentary railway lounge visit per quarter</li>
+              </ul>
+              <button class="btn btn-orange">Apply Now</button>
+              <form class="form-inline">
+                  Get a call back to know best offer on credit cards
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+
+  
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <!-- Division containing heading and buttons -->
+      <div class="heading-buttons">
+          <h2>Digital Banking</h2>
+          <h4>Advance. Innovative. Instant</h4>
+          <ul class="button-list">
+              <li><button class="btn btn-outline-orange">Mobile Banking</button></li>
+              <li><button class="btn btn-outline-orange">Net Banking</button></li>
+              <li><button class="btn btn-outline-orange">Whatsapp Banking</button></li>
+          </ul>
+      </div>
+  </div>
+  
+    <div class="col-md-6">
+      <!-- Image carousel -->
+      <div id="imageCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="C:\Users\shivani\Desktop\ICICIBank\frontend\public\images\digital1.webp" class="d-block w-100" alt="Image 1">
+          </div>
+          <div class="carousel-item">
+            <img src="C:\Users\shivani\Desktop\ICICIBank\frontend\public\images\digital2.png" class="d-block w-100" alt="Image 2">
+          </div>
+          <div class="carousel-item">
+            <img src="C:\Users\shivani\Desktop\ICICIBank\frontend\public\images\digital3.png" class="d-block w-100" alt="Image 3">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#imageCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#imageCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container2">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="bank">
+        <h3>WE TAKE YOUR BANKING SECURITY</h3>
+        <h4>SERIOUSLY !</h4>
+        <div class="ser">
+        <p>Peace of mind for you as we have the most advanced technology & protection.</p>
+        <p>2 Factor i-safe authentication</p>
+        <p>End-to-end 256 bit Encryption</p>
+        <p>We make you feel special</p>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <div class="notes">
+      <h5>Important Notices:</h5>
+      <ol>
+        <li>2,000 rs Denomination Banknotes Withdrawn from Circulation</li>
+        <li>Reserve Bank Integrated Ombudsman Scheme, 2021</li>
+      </ol>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <div class="trend">
+      <p>-------TRENDING DEALS-------</p>
+      <div class="great">GREAT OFFERS FOR <span>GREAT EXPERIENCES</span></div>
+      <div class="hand">
+        <h6>HANDPICKED OFFERS</h6>
+        <div class="ic">
+          <img src="C:\Users\shivani\Desktop\ICICIBank\frontend\public\images\iii.png" alt="ICICI Bank Mastercard Debit Card">
+          <h3>ICICI Bank Mastercard Debit Card</h3>
+          <button class="btn btn-primary">KNOW MORE</button>
+        </div>
+        <div class="ici">
+        <button>View all offers</button>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<footer class="footer">
+  <div class="section">
+    <div class="item">
+      <h3>About us</h3>
+      <ul>
+        <li><a href="#">Media Center</a></li>
+        <li> <a  href="#">Awards and Recognition</a></li>
+        <li> <a  href="#">Career opportunities</a></li>
+        <!-- Add more items here -->
+      </ul>
+    </div>
+    <div class="item">
+      <h3> Customer Services</h3>
+      <ul>
+        <li><a href="#">Contact Us</a></li>
+        <li> <a  href="#">Customer Care</a></li>
+        <li> <a  href="#">Report Unauthorized Transactions</a></li>
+        <li> <a href="#">Form Center</a></li>
+        <li> <a  href="#">Raise a Service Request</a></li>
+        <li> <a  href="#">Report Suspicious Activities</a></li>
+        <li> <a  href="#">Complaints and Griievance Redressal</a></li>
+        </ul>
+    </div>
+    <div class="item">
+      <h3>Ways to Bank</h3>
+      <ul>
+        <li><a href="#">Digital banking</a></li>
+        <li> <a  href="#">Mobile Banking</a></li>
+        <li> <a  href="#">Internet Banking</a></li>
+        <li> <a href="#">iMobilePay</a></li>
+        <li> <a  href="#">WhatsApp Banking</a></li>
+        <li> <a  href="#">Pockets</a></li>
+        <li> <a  href="#">Ask iPal</a></li>
+        <li> <a  href="#">ATM's and Branches</a></li>
+      </ul>
+    </div>
+    <div class="item">
+      <h3>Explore</h3>
+      <ul>
+        <li><a href="#">Intrest Rates</a></li>
+        <li> <a  href="#">Service Charges and fees</a></li>
+        <li> <a  href="#">Account Activation process</a></li>
+        <li><a href="#">Important information related to digital lending</a></li>
+        <!-- Add more items here -->
+      </ul>
+    </div>
+    <div class="item">
+      <h3>Tools & calculators</h3>
+      <ul>
+        <li><a href="#">Fixed deposit EMI calculator</a></li>
+        <li> <a  href="#">Personal loan EMI calculator</a></li>
+        <li> <a  href="#"> Car Loan EMI calculator</a></li>
+        <li><a href="#"> Home Loan EMI calculator</a></li>
+        <li> <a  href="#">Mutual Fund calculator</a></li>
+        <li> <a  href="#">SAP calculator</a></li>
+        <li><a href="#">Education loan calculator</a></li>
+        <li> <a  href="#">Retirement calculator</a></li>
+        
+        <!-- Add more items here -->
+      </ul>
+    </div>
+    <div class="item">
+      <h3>Popular products and services</h3>
+      <ul>
+        <li><a href="#">Savings Account</a></li>
+        <li> <a  href="#">Current Account</a></li>
+        <li> <a  href="#">Fixed deposit</a></li>
+        <li><a href="#">Money Transfer</a></li>
+        <li> <a  href="#">Credit cards</a></li>
+        <li> <a  href="#">home loan</a></li>
+        <li><a href="#">Personal loan</a></li>
+        <li> <a  href="#">Car Loan</a></li>
+        
+        <!-- Add more items here -->
+      </ul>
+    </div>
+    <div class="item">
+      <h3>Investor Relations</h3>
+      <ul>
+        <li><a href="#">Overview</a></li>
+        <li> <a  href="#">List of unclaimed Accounts</a></li>
+      </ul>
+    </div>
+    <div class="item">
+      <h3>Other</h3>
+      <ul>
+        <li><a href="#">Do Not call Registry</a></li>
+        <li> <a  href="#">Customer Service Policies</a></li>
+        <li> <a  href="#">Business Conduct  and Ethics</a></li>
+        <li><a href="#">Use of Unparliamnetary Language by Customers</a></li>
+        <li> <a  href="#">Fair practice Code for Lenders</a></li>
+        <li> <a  href="#">Mulitlingual Disclaimer</a></li>
+        <li> <a  href="#">Sitemap</a></li>
+      </ul>
+    </div>
+    <div class="item">
+      <h3>Regulatory Information</h3>
+      <ul>
+        <li><a href="#">Safe Banking</a></li>
+        <li> <a  href="#">RBI Awareness Campaign</a></li>
+                <!-- Add more items here -->
+      </ul>
+    </div>
+    <div class="item">
+      <h3>ICICI Bank Group Websites</h3>
+      <ul>
+        <li><a href="#">ICICI Foundation</a></li>
+        <li> <a  href="#">ICICI Lombard General Insurance</a></li>
+        <li> <a  href="#">ICICI Prudential Life Insuarance</a></li>
+        <!-- Add more items here -->
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="content">
+      <p>Customer care</p>
+      <p>Get Social</p>
+      <p>Install imobile App</p>
+      <p>ICICI bankltd</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="content">
+      <div class="text-container">
+        <p>Terms and Conditions</p>
+        <span class="vertical-line"></span>
+        <p>Disclaimer</p>
+        <span class="vertical-line"></span>
+        <p>Privacy and policy</p>
+        <!-- Add more texts here -->
+      </div>
+    </div>
+  </div>
+  
+</footer>
+
+
+
+
+  <!-- Bootstrap and jQuery JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+<script>
+  // JavaScript to handle focusing on the login dropdown button
+  document.getElementById("loginDropdown").addEventListener("mouseenter", function(event) {
+    document.getElementById("loginDropdown").focus();
+  });
+</script>
+
+
+
+</body>
+</html>
